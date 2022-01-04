@@ -1,0 +1,9 @@
+:root {
+  --tablet: 768px;
+  --desktop: 1024px;
+  --wide: 1280px;
+  --color-default: #ffffff;
+  --color-supplementary: #aaaaaa;
+  --background-color-default: #2a2c2f;
+  --font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
