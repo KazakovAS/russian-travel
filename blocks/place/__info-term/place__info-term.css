@@ -1,0 +1,7 @@
+.place__info-term {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: var(--color-supplementary);
+}
+
