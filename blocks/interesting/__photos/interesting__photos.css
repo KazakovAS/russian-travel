@@ -1,0 +1,27 @@
+.interesting__photos {
+  display: grid;
+  gap: 12px;
+  margin-top: 64px;
+}
+
+@media (min-width: 768px) {
+  .interesting__photos {
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 16px), 1fr));
+    gap: 16px;
+    margin-top: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .interesting__photos {
+    grid-template-columns: repeat(auto-fit, minmax(calc(33% - 16px), 1fr));
+    margin-top: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .interesting__photos {
+    grid-template-columns: repeat(auto-fit, minmax(calc(25% - 16px), 1fr));
+    margin-top: 92px;
+  }
+}
