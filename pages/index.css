@@ -7,14 +7,12 @@
 @import '../blocks/page/page.css';
 @import '../blocks/content/content.css';
 
-
 @import '../blocks/header/header.css';
 @import '../blocks/header/__logo/header__logo.css';
 @import '../blocks/header/__lang/header__lang.css';
-@import '../blocks/header/__lang-list/header__lang-list.css';
 @import '../blocks/header/__lang-item/header__lang-item.css';
 @import '../blocks/header/__lang-link/header__lang-link.css';
-@import '../blocks/header/__lang-link/_state/header__lang-link_state_selected.css';
+@import '../blocks/header/__lang-link/_selected/header__lang-link_selected.css';
 
 @import '../blocks/hero/hero.css';
 @import '../blocks/hero/__title/hero__title.css';
@@ -23,17 +21,16 @@
 @import '../blocks/hero/__image/hero__image.css';
 @import '../blocks/hero/__image-caption/hero__image-caption.css';
 
-
 @import '../blocks/interesting/interesting.css';
 @import '../blocks/interesting/__title/interesting__title.css';
-@import '../blocks/interesting/__description/interesting__description.css';
 @import '../blocks/interesting/__text/interesting__text.css';
 @import '../blocks/interesting/__list/interesting__list.css';
 @import '../blocks/interesting/__list-item/interesting__list-item.css';
 @import '../blocks/interesting/__term/interesting__term.css';
 @import '../blocks/interesting/__details/interesting__details.css';
-@import '../blocks/interesting/__photos/interesting__photos.css';
-@import '../blocks/interesting/__photo/interesting__photo.css';
+
+@import '../blocks/photos-places/photos-places.css';
+@import '../blocks/photos-places/__photo/photos-places__photo.css';
 
 @import '../blocks/places/places.css';
 
@@ -57,5 +54,3 @@
 @import '../blocks/footer/__nav-item/footer__nav-item.css';
 @import '../blocks/footer/__nav-link/footer__nav-link.css';
 @import '../blocks/footer/__copyright/footer__copyright.css';
-
-

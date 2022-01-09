@@ -12,7 +12,8 @@
   .place__title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    font-size: 43px;
+    /* 43 тут стояло специально для переноса как в макете. */
+    font-size: 42px;
     line-height: 46px;
     padding-left: initial;
     padding-right: initial;
