@@ -1,4 +1,5 @@
 .page {
+  max-width: 1280px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -15,16 +16,4 @@
   line-height: normal;
   color: var(--color-default);
   margin: 0 auto;
-}
-
-@media (min-width: 1024px) {
-  .page {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .page {
-    max-width: 1280px;
-  }
 }
